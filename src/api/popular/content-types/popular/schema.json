@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "populars",
+  "info": {
+    "singularName": "popular",
+    "pluralName": "populars",
+    "displayName": "popular"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}
