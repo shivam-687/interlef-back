@@ -50,6 +50,12 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "articles"
     }
   }
 }
